@@ -30,10 +30,12 @@ public class BoardDAOTest {
   public void testCreate() throws Exception {
 
     BoardVO board = new BoardVO();
-    board.setTitle("새로운 글을 넣습니다. ");
-    board.setContent("새로운 글을 넣습니다. ");
-    board.setWriter("user11");
+    board.setTitle("title_ ");
+    board.setContent("con_ ");
+    board.setWriter("user13");
     dao.create(board);
+    
+  
   }
 
   @Test
